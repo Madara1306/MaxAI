@@ -1,0 +1,48 @@
+body {
+  background-color: darkviolet;
+  margin-top: 20%;
+}
+
+.buttoncontainer {
+  align-items: center; /* Center horizontally */
+}
+h1 {
+  font-size: 450%;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+h2 {
+  font-size: 400%;
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+hr {
+  color: black;
+  width: 100%;
+}
+button {
+  display: inline-block;
+  padding: 70px 150px; /* Adjust padding as needed */
+  background-color: #f50505; /* Button background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  font-size: 30px; /* Text font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  margin-left: 10%;
+}
+button:hover {
+  background-color: #b92929; /* Hover background color */
+}
